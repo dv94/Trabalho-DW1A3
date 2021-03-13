@@ -9,22 +9,41 @@
 
 			main { width:-1px; margin:-1px auto 10px; border:1px solid #FFF; font-family:Arial, sans-serif }
 
-			header{text-align: center;}
-			
-			nav {width:-1px;background-color: #008B8B;text-align: center;}
-			nav ul { list-style:none; margin:0; padding:10px;}
+			header{text-align: right;background-color: #FF8C00;}
+
+			nav {width:-1px;background-color: #FFF;text-align: center;}
+			nav ul { list-style:none; margin:10; padding:10px;}
             nav ul li { display:inline-block;}
-            nav ul li a {font-size: 0.85em;text-decoration: none; color: #000000; padding: 4px 20px;}
-            nav ul li a:hover { background-color:#A9A9A9 }
+            nav ul li a {font-size: 0.85em;text-decoration: none; color: #000000; padding: 15px 30px;}
+            nav ul li a:hover { background-color:#FF8C00; }
+            
+            footer {clear:both; width:-1px; margin:0 auto; font-size:0.90em; text-align:center; background-color:#FF8C00; padding:5px}
+            /* Verificar como formatar dentro da pagina
+            #janela {position: absolute;height: 2000px;}*/
 	</style>
+	<!-- conseguir fazer funcionar direito
+	<script src="C:\Users\Davi\Documents\Faculdade\6° Semestre\DW1A3\Trabalho-DW1A3/jquery-3.6.0.min.js"></script>
+	<script>
+		function moverFotos(){
+			$('#janela').animate({left: "-=200"},1000)
+		}
+		$(function(e) {
+			setInterval(moverFotos, 2000);
+		}
+	</script>-->
 
 </head>
 <body>
 	<main>
 		<header>
-			<h1>Site de venda</h1>
+			<a href="C:\Users\Davi\Documents\Faculdade\6° Semestre\DW1A3\Trabalho-DW1A3/Trabalho final.html">
+
+			<img src="C:\Users\Davi\Documents\Faculdade\6° Semestre\DW1A3\Trabalho-DW1A3\Imagens\logo1.jpg" width="220" height="100"
+			style="border: 1px solid #000">
+			</a>
+
 		</header>
-		<nav>
+		<nav> <!--Menu de navegação  -->
 			<ul>
 				<li><a href="">Home</a></li>
 				<li><a href="">Teste</a></li>
@@ -34,9 +53,25 @@
 				<li><a href="">Teste</a></li>
 				<li><a href="">Teste</a></li>
 			</ul>
-		</nav>
+		</nav> 
+		<!-- Verificar como adicionar carrosel
+		<div id="janela">
+			<img src="C:\Users\Davi\Downloads\arquivo-para-download (1)\exercicios limpos\unidade07\imagens/foto1.jpg">
+			<img src="C:\Users\Davi\Downloads\arquivo-para-download (1)\exercicios limpos\unidade07\imagens/foto2.jpg">
+			<img src="C:\Users\Davi\Downloads\arquivo-para-download (1)\exercicios limpos\unidade07\imagens/foto3.jpg">
+			<img src="C:\Users\Davi\Downloads\arquivo-para-download (1)\exercicios limpos\unidade07\imagens/foto4.jpg">
+			<img src="C:\Users\Davi\Downloads\arquivo-para-download (1)\exercicios limpos\unidade07\imagens/foto5.jpg">
+		</div>
+		-->
+	
+	<footer>
+			<!-- Teste de menu -->
+			<p><a href="">Dúvida |</a><a href="">Perguntas |</a><a href="">Contato |</a></p>
+			<p>Cafe Fontenebleu - Rua Ernesto de Paula Santos, 187 Sala 506 - Recife-PE</p>
+			<small>&copy Copyrigt 2021 - Trabalho da faculdade!</small>
+		</footer>
 	</main>
-
+	
 
 </body>
 </html>
